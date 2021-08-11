@@ -1,0 +1,74 @@
+body {
+    background: #fff url('https://www.homewallmurals.co.uk/ekmps/shops/allwallpapers/images/new-york-city-skyline-paper-wallpaper-28703-1-p.jpg') no-repeat fixed center center;
+    margin: 0;
+}
+
+#page {
+    display: flex;
+    justify-content: center;
+    padding-top: 20vh;
+    height: 100%;
+}
+
+#content {
+    padding-top: 30px;
+    background-color: rgba(47, 79, 79, 0.9);
+    width: 360px;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 15px;
+    -webkit-box-shadow: 0 0 22px 5px rgba(34, 60, 80, 0.37);
+    -moz-box-shadow: 0 0 22px 5px rgba(34, 60, 80, 0.37);
+    box-shadow: 0 0 22px 5px rgba(34, 60, 80, 0.37);
+}
+
+.title {
+    display: inline-block;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 140px;
+    color: white;
+    letter-spacing: 1px;
+}
+
+.value {
+    display: inline-block;
+    font-size: 20px;
+    color: #ffaf8c;
+    letter-spacing: 1px;
+    font-style: italic;
+}
+
+#languages {
+    display: flex;
+    align-items: center;
+}
+
+input {
+    border-radius: 7px 0 0 7px;
+    width: 120px;
+    height: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    outline: none;
+}
+
+button {
+    border-radius: 0 7px 7px 0;
+    width: 120px;
+    height: 26px;
+    text-align: center;
+    letter-spacing: 1px;
+    border: none;
+    color: white;
+    background-color: rgba(139, 69, 19, 0.5);
+}
+
+button:hover {
+    background-color: rgb(91, 45, 16);
+    transition: 0.2s;
+}
